@@ -37,3 +37,5 @@ while True:
             IndexImg += 1
     elif key == ord('q'):
         break
+cap.release()
+cv2.destroyAllWindow()
